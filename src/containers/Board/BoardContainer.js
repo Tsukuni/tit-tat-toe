@@ -6,7 +6,7 @@ import { setPlayer } from '../../modules/appState';
 
 
 const BoardContainer = () => {
-  const { position, appState } = useSelector(hoge => hoge);
+  const { position, appState } = useSelector(state => state);
 
   const dispatch = useDispatch();
 
